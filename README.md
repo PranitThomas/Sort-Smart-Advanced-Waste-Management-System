@@ -146,22 +146,23 @@ python app.py
 
 ## Output 
 
-![Picture 1](Screenshots/Picture1.png)
-![Picture 2](Screenshots/Picture2.png)
-![Picture 3](Screenshots/Picture3.png)
-![Picture 4](Screenshots/Picture4.png)
-![Picture 5](Screenshots/Picture5.png)
-![Picture 6](Screenshots/Picture6.png)
-![Picture 7](Screenshots/Picture7.png)
-![Picture 8](Screenshots/Picture8.png)
-![Picture 9](Screenshots/Picture9.png)
-![Picture 10](Screenshots/Picture10.png)
-![Picture 11](Screenshots/Picture11.png)
-![Picture 12](Screenshots/Picture12.png)
-![Picture 13](Screenshots/Picture13.png)
-![Picture 14](Screenshots/Picture14.png)
-![Picture 15](Screenshots/Picture15.png)
-![Picture 16](Screenshots/Picture16.png)
-![Picture 17](Screenshots/Picture17.png)
-![Picture 18](Screenshots/Picture18.png)
-![Picture 19](Screenshots/Picture19.png)
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture1.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture2.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture3.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture4.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture5.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture6.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture7.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture8.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture9.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture10.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture11.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture12.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture13.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture14.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture15.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture16.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture17.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture18.png?raw=true" width="400" />
+<img src="https://github.com/PranitThomas/Sort-Smart-Advanced-Waste-Management-System/blob/main/Screenshots/Picture19.png?raw=true" width="400" />
+
