@@ -1,0 +1,56 @@
+.guidelines-container {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.guidelines-container h2 {
+    font-size: 24px;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.guidelines-content {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+.guidelines-content h3 {
+    color: #34495e;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.guidelines-steps {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.guidelines-steps li {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    color: #555;
+    position: relative;
+    padding-left: 30px;
+}
+
+.guidelines-steps li:before {
+    content: "♻️";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
