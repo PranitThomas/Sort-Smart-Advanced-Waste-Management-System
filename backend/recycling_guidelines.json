@@ -1,0 +1,584 @@
+{
+    "classes": {
+        "0": "plastic",
+        "1": "paper",
+        "2": "glass",
+        "3": "metal",
+        "4": "organic",
+        "5": "electronic"
+    },
+    "guidelines": {
+        "bt": {
+            "title": "Battery Recycling Guidelines",
+            "steps": [
+                "Remove batteries from devices if possible",
+                "Keep different types of batteries separate",
+                "Tape the terminals of lithium batteries",
+                "Store in a cool, dry place",
+                "Take to a certified battery recycling center"
+            ],
+            "tips": "Never dispose of batteries in regular trash. They contain hazardous materials that can harm the environment."
+        },
+        "ge": {
+            "title": "General Electronics Recycling Guidelines",
+            "steps": [
+                "Back up and wipe all personal data",
+                "Remove batteries if possible",
+                "Keep all components together",
+                "Clean the device if necessary",
+                "Find a certified e-waste recycler"
+            ],
+            "tips": "Electronics contain valuable materials but also hazardous substances. Always recycle through proper channels."
+        },
+        "me": {
+            "title": "Metal Recycling Guidelines",
+            "steps": [
+                "Clean and dry metal items",
+                "Remove any non-metal attachments",
+                "Separate different types of metal",
+                "Flatten cans to save space",
+                "Remove labels if possible"
+            ],
+            "tips": "Most metals are 100% recyclable. Clean metal items thoroughly to avoid contamination."
+        },
+        "ow": {
+            "title": "Organic Waste Guidelines",
+            "steps": [
+                "Separate food waste from packaging",
+                "Compost fruit and vegetable scraps",
+                "Avoid meat and dairy in home composting",
+                "Keep organic waste dry",
+                "Use appropriate composting container"
+            ],
+            "tips": "Organic waste can be composted to create nutrient-rich soil. Avoid composting meat, dairy, and oily foods."
+        },
+        "pe": {
+            "title": "PET (Polyethylene Terephthalate) Recycling Guidelines",
+            "steps": [
+                "Rinse containers thoroughly",
+                "Remove caps and labels",
+                "Flatten to save space",
+                "Check for recycling number 1",
+                "Keep clean and dry"
+            ],
+            "tips": "PET is highly recyclable. Clean containers thoroughly to avoid contamination."
+        },
+        "pp": {
+            "title": "Polypropylene Recycling Guidelines",
+            "steps": [
+                "Clean containers thoroughly",
+                "Remove any attachments",
+                "Check for recycling number 5",
+                "Keep dry and clean",
+                "Flatten if possible"
+            ],
+            "tips": "PP is widely recyclable. Make sure containers are clean and dry before recycling."
+        },
+        "sn": {
+            "title": "Steel/Nickel Recycling Guidelines",
+            "steps": [
+                "Clean items thoroughly",
+                "Remove any attachments",
+                "Separate from other metals",
+                "Keep dry",
+                "Take to metal recycling center"
+            ],
+            "tips": "Steel and nickel are highly recyclable. Clean items thoroughly to maintain quality."
+        },
+        "aerosol cans": {
+            "title": "Aerosol Can Recycling Guidelines",
+            "steps": [
+                "Ensure can is completely empty",
+                "Remove plastic caps",
+                "Do not puncture or crush",
+                "Keep away from heat",
+                "Take to hazardous waste facility"
+            ],
+            "tips": "Aerosol cans are pressurized and should be handled carefully. Never puncture or crush them."
+        },
+        "aluminum food cans": {
+            "title": "Aluminum Food Can Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove labels if possible",
+                "Flatten to save space",
+                "Keep clean and dry",
+                "Separate from other metals"
+            ],
+            "tips": "Aluminum is 100% recyclable. Clean cans thoroughly to avoid contamination."
+        },
+        "aluminum soda cans": {
+            "title": "Aluminum Soda Can Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Crush to save space",
+                "Remove tabs if possible",
+                "Keep clean and dry",
+                "Separate from other metals"
+            ],
+            "tips": "Aluminum cans are highly recyclable. Clean thoroughly before recycling."
+        },
+        "battery": {
+            "title": "Battery Recycling Guidelines",
+            "steps": [
+                "Remove from devices",
+                "Tape terminals",
+                "Store separately",
+                "Keep in cool place",
+                "Take to battery recycler"
+            ],
+            "tips": "Batteries contain hazardous materials. Never dispose in regular trash."
+        },
+        "cardboard boxes": {
+            "title": "Cardboard Box Recycling Guidelines",
+            "steps": [
+                "Remove any tape or labels",
+                "Flatten boxes",
+                "Keep dry",
+                "Remove any plastic windows",
+                "Separate by type if required"
+            ],
+            "tips": "Cardboard is highly recyclable. Keep it clean and dry."
+        },
+        "cardboard packaging": {
+            "title": "Cardboard Packaging Recycling Guidelines",
+            "steps": [
+                "Remove plastic elements",
+                "Flatten packaging",
+                "Keep dry",
+                "Remove any tape",
+                "Separate if needed"
+            ],
+            "tips": "Clean cardboard packaging is fully recyclable. Remove all non-cardboard elements."
+        },
+        "clothing": {
+            "title": "Clothing Recycling Guidelines",
+            "steps": [
+                "Clean items thoroughly",
+                "Remove buttons and zippers",
+                "Separate by material type",
+                "Donate if in good condition",
+                "Take to textile recycler"
+            ],
+            "tips": "Consider donating wearable clothing. Damaged items can be recycled into new products."
+        },
+        "coffee grounds": {
+            "title": "Coffee Grounds Recycling Guidelines",
+            "steps": [
+                "Let dry completely",
+                "Remove any filters",
+                "Add to compost",
+                "Use as garden fertilizer",
+                "Keep away from water sources"
+            ],
+            "tips": "Coffee grounds are great for composting and gardening. They add nitrogen to soil."
+        },
+        "disposable plastic cutlery": {
+            "title": "Plastic Cutlery Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Check local recycling rules",
+                "Separate by type",
+                "Consider reusable alternatives",
+                "Take to plastic recycler"
+            ],
+            "tips": "Consider switching to reusable cutlery. Many facilities don't accept plastic cutlery."
+        },
+        "eggshells": {
+            "title": "Eggshell Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Let dry completely",
+                "Crush into small pieces",
+                "Add to compost",
+                "Use as garden fertilizer"
+            ],
+            "tips": "Eggshells are rich in calcium. Great for composting and gardening."
+        },
+        "food waste": {
+            "title": "Food Waste Recycling Guidelines",
+            "steps": [
+                "Separate from packaging",
+                "Compost fruit and vegetables",
+                "Avoid meat and dairy",
+                "Keep dry",
+                "Use appropriate container"
+            ],
+            "tips": "Food waste can be composted. Avoid composting meat, dairy, and oily foods."
+        },
+        "gauze": {
+            "title": "Medical Waste Guidelines",
+            "steps": [
+                "Place in medical waste bag",
+                "Do not mix with regular trash",
+                "Take to medical waste facility",
+                "Follow local regulations",
+                "Contact healthcare provider"
+            ],
+            "tips": "Medical waste requires special handling. Contact local healthcare facilities for disposal."
+        },
+        "glass beverage bottles": {
+            "title": "Glass Bottle Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove caps and labels",
+                "Separate by color",
+                "Keep clean and dry",
+                "Handle with care"
+            ],
+            "tips": "Glass is 100% recyclable. Clean bottles thoroughly before recycling."
+        },
+        "glass cosmetic containers": {
+            "title": "Glass Cosmetic Container Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Remove all product",
+                "Remove plastic parts",
+                "Separate by color",
+                "Keep clean and dry"
+            ],
+            "tips": "Clean glass containers thoroughly. Remove all product and non-glass elements."
+        },
+        "glass food jars": {
+            "title": "Glass Jar Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove lids and labels",
+                "Clean completely",
+                "Separate by color",
+                "Keep dry"
+            ],
+            "tips": "Glass jars are fully recyclable. Clean thoroughly to avoid contamination."
+        },
+        "gloves": {
+            "title": "Glove Recycling Guidelines",
+            "steps": [
+                "Check material type",
+                "Clean if reusable",
+                "Separate by material",
+                "Take to textile recycler",
+                "Consider donation if usable"
+            ],
+            "tips": "Consider reusable alternatives. Some gloves can be recycled into new products."
+        },
+        "keyboard": {
+            "title": "Keyboard Recycling Guidelines",
+            "steps": [
+                "Remove batteries if present",
+                "Clean thoroughly",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Keyboards contain valuable materials. Consider donating if still functional."
+        },
+        "magazines": {
+            "title": "Magazine Recycling Guidelines",
+            "steps": [
+                "Remove plastic wrap",
+                "Keep dry",
+                "Separate from newspapers",
+                "Remove any inserts",
+                "Flatten if possible"
+            ],
+            "tips": "Magazines are recyclable. Remove all non-paper elements before recycling."
+        },
+        "mask": {
+            "title": "Face Mask Recycling Guidelines",
+            "steps": [
+                "Remove ear loops",
+                "Separate materials",
+                "Clean if reusable",
+                "Take to textile recycler",
+                "Consider reusable alternatives"
+            ],
+            "tips": "Consider using reusable masks. Some facilities accept disposable masks for recycling."
+        },
+        "microwave": {
+            "title": "Microwave Recycling Guidelines",
+            "steps": [
+                "Remove any food debris",
+                "Clean thoroughly",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Microwaves contain valuable materials. Consider donating if still functional."
+        },
+        "mobile": {
+            "title": "Mobile Phone Recycling Guidelines",
+            "steps": [
+                "Back up all data",
+                "Remove SIM card",
+                "Remove battery if possible",
+                "Take to e-waste recycler",
+                "Check for trade-in programs"
+            ],
+            "tips": "Many retailers offer trade-in programs. Consider donating if still functional."
+        },
+        "mouse": {
+            "title": "Computer Mouse Recycling Guidelines",
+            "steps": [
+                "Remove batteries if present",
+                "Clean thoroughly",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Consider donating if still functional. Otherwise, recycle through e-waste program."
+        },
+        "newspaper": {
+            "title": "Newspaper Recycling Guidelines",
+            "steps": [
+                "Keep dry",
+                "Remove plastic bags",
+                "Separate from magazines",
+                "Remove any inserts",
+                "Flatten if possible"
+            ],
+            "tips": "Newspapers are highly recyclable. Keep them clean and dry."
+        },
+        "office paper": {
+            "title": "Office Paper Recycling Guidelines",
+            "steps": [
+                "Remove staples and clips",
+                "Keep clean and dry",
+                "Separate by type",
+                "Remove any plastic elements",
+                "Shred if containing sensitive information"
+            ],
+            "tips": "Office paper is highly recyclable. Remove all non-paper elements."
+        },
+        "paper cups": {
+            "title": "Paper Cup Recycling Guidelines",
+            "steps": [
+                "Remove plastic lids",
+                "Clean thoroughly",
+                "Separate from other paper",
+                "Keep dry",
+                "Check local recycling rules"
+            ],
+            "tips": "Many paper cups have plastic lining. Check local recycling rules."
+        },
+        "pcb": {
+            "title": "PCB (Printed Circuit Board) Recycling Guidelines",
+            "steps": [
+                "Remove from device",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Follow local regulations",
+                "Contact specialized recycler"
+            ],
+            "tips": "PCBs contain valuable materials but also hazardous substances. Requires special handling."
+        },
+        "plastic cup lids": {
+            "title": "Plastic Cup Lid Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Check recycling number",
+                "Separate by type",
+                "Keep dry",
+                "Check local rules"
+            ],
+            "tips": "Check local recycling rules. Some facilities don't accept small plastic items."
+        },
+        "plastic detergent bottles": {
+            "title": "Plastic Detergent Bottle Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove caps and labels",
+                "Check recycling number",
+                "Keep clean and dry",
+                "Flatten if possible"
+            ],
+            "tips": "Clean containers thoroughly. Most detergent bottles are recyclable."
+        },
+        "plastic food containers": {
+            "title": "Plastic Food Container Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Remove any food residue",
+                "Check recycling number",
+                "Keep dry",
+                "Remove labels if possible"
+            ],
+            "tips": "Clean containers thoroughly to avoid contamination. Check local recycling rules."
+        },
+        "plastic shopping bags": {
+            "title": "Plastic Shopping Bag Recycling Guidelines",
+            "steps": [
+                "Clean if necessary",
+                "Remove receipts",
+                "Keep dry",
+                "Take to bag recycling bin",
+                "Consider reusable alternatives"
+            ],
+            "tips": "Many grocery stores have bag recycling bins. Consider using reusable bags."
+        },
+        "plastic soda bottles": {
+            "title": "Plastic Soda Bottle Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove caps and labels",
+                "Flatten to save space",
+                "Keep clean and dry",
+                "Check recycling number"
+            ],
+            "tips": "Most soda bottles are PET and highly recyclable. Clean thoroughly."
+        },
+        "plastic straws": {
+            "title": "Plastic Straw Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Check local rules",
+                "Consider alternatives",
+                "Take to specialized recycler",
+                "Avoid single-use plastics"
+            ],
+            "tips": "Consider using reusable straws. Many facilities don't accept plastic straws."
+        },
+        "plastic trash bags": {
+            "title": "Plastic Trash Bag Recycling Guidelines",
+            "steps": [
+                "Clean if necessary",
+                "Check local rules",
+                "Consider alternatives",
+                "Take to specialized recycler",
+                "Use biodegradable options"
+            ],
+            "tips": "Consider using biodegradable bags. Many facilities don't accept plastic bags."
+        },
+        "plastic water bottles": {
+            "title": "Plastic Water Bottle Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove caps and labels",
+                "Flatten to save space",
+                "Keep clean and dry",
+                "Check recycling number"
+            ],
+            "tips": "Most water bottles are PET and highly recyclable. Clean thoroughly."
+        },
+        "player": {
+            "title": "Media Player Recycling Guidelines",
+            "steps": [
+                "Remove batteries if present",
+                "Clean thoroughly",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Consider donating if still functional. Otherwise, recycle through e-waste program."
+        },
+        "printer": {
+            "title": "Printer Recycling Guidelines",
+            "steps": [
+                "Remove toner/ink cartridges",
+                "Clean thoroughly",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Many retailers offer printer recycling programs. Consider donating if still functional."
+        },
+        "shoes": {
+            "title": "Shoe Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Separate pairs",
+                "Consider donation if wearable",
+                "Take to shoe recycler",
+                "Check material type"
+            ],
+            "tips": "Many brands offer shoe recycling programs. Consider donating if still wearable."
+        },
+        "steel food cans": {
+            "title": "Steel Food Can Recycling Guidelines",
+            "steps": [
+                "Rinse thoroughly",
+                "Remove labels if possible",
+                "Flatten to save space",
+                "Keep clean and dry",
+                "Separate from aluminum"
+            ],
+            "tips": "Steel cans are 100% recyclable. Clean thoroughly to avoid contamination."
+        },
+        "styrofoam cups": {
+            "title": "Styrofoam Cup Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Check local rules",
+                "Consider alternatives",
+                "Take to specialized recycler",
+                "Avoid single-use items"
+            ],
+            "tips": "Many facilities don't accept styrofoam. Consider using reusable cups."
+        },
+        "styrofoam food containers": {
+            "title": "Styrofoam Food Container Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Check local rules",
+                "Consider alternatives",
+                "Take to specialized recycler",
+                "Avoid single-use items"
+            ],
+            "tips": "Many facilities don't accept styrofoam. Consider using reusable containers."
+        },
+        "syringe": {
+            "title": "Medical Waste Guidelines",
+            "steps": [
+                "Place in sharps container",
+                "Do not recap needles",
+                "Take to medical waste facility",
+                "Follow local regulations",
+                "Contact healthcare provider"
+            ],
+            "tips": "Medical waste requires special handling. Never dispose in regular trash."
+        },
+        "tea bags": {
+            "title": "Tea Bag Recycling Guidelines",
+            "steps": [
+                "Remove staple if present",
+                "Separate paper and tea",
+                "Compost tea leaves",
+                "Recycle paper if possible",
+                "Check local rules"
+            ],
+            "tips": "Some tea bags contain plastic. Check if your brand is fully compostable."
+        },
+        "television": {
+            "title": "Television Recycling Guidelines",
+            "steps": [
+                "Remove all cables",
+                "Clean thoroughly",
+                "Keep components together",
+                "Take to e-waste recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Many retailers offer TV recycling programs. Consider donating if still functional."
+        },
+        "tweezers": {
+            "title": "Metal Item Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Separate by material",
+                "Take to metal recycler",
+                "Check local rules",
+                "Consider donation if usable"
+            ],
+            "tips": "Metal items are highly recyclable. Clean thoroughly before recycling."
+        },
+        "washing machine": {
+            "title": "Washing Machine Recycling Guidelines",
+            "steps": [
+                "Clean thoroughly",
+                "Remove hoses",
+                "Keep components together",
+                "Take to appliance recycler",
+                "Check for donation programs"
+            ],
+            "tips": "Many retailers offer appliance recycling programs. Consider donating if still functional."
+        }
+    }
+} 
