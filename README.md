@@ -1,7 +1,7 @@
 # ♻️ Sort Smart Advanced Waste Management System 🌍
 ---
 
-## ♻️ Overview
+## 🍃 Overview
 
 **Waste management is one of the most urgent environmental challenges of our time.**  
 With global waste generation exceeding *2 billion tonnes annually* — and over **33% of it mismanaged** — improper disposal continues to harm ecosystems, public health, and urban sustainability. A major contributor to this issue is incorrect waste segregation at the source, where recyclables, organics, and hazardous materials are often mixed due to a lack of awareness or accessible tools.
