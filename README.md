@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+## ♻️ Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Waste management is one of the most urgent environmental challenges of our time.**  
+With global waste generation exceeding *2 billion tonnes annually* — and over **33% of it mismanaged** — improper disposal continues to harm ecosystems, public health, and urban sustainability. A major contributor to this issue is incorrect waste segregation at the source, where recyclables, organics, and hazardous materials are often mixed due to a lack of awareness or accessible tools.
 
-## Available Scripts
+While advanced waste classification systems using sensors, robotics, and automation exist, they are **prohibitively expensive**. These systems rely on technologies like spectrometers and AI-powered robotic arms, placing them out of reach for *small clinics, educational institutions, local businesses, and residential communities*.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+**SORT SMART** bridges the accessibility gap by offering a cost-effective, image-based waste classification platform. Instead of requiring specialized hardware, users simply upload a photo of a waste item through a clean and responsive web interface. Behind the scenes, a trained **GoogLeNet (Inception)** deep learning model classifies the item into one of **52 predefined categories.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Based on the prediction, the system provides *clear, category-specific recycling or disposal instructions* and can optionally suggest nearby disposal centers based on the user’s location.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### 👥 Who Is It For?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+SORT SMART is designed for:
+- 🧍‍♂️ Individuals and households  
+- 🏢 Small businesses, offices, and retail stores  
+- 🏥 Clinics and medical facilities  
+- 🏫 Educational institutions  
+- 🏛️ Municipal authorities and environmental organizations  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 💡 Why It Matters
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Empowers users to **reduce their ecological footprint** without expensive infrastructure  
+- Encourages **correct waste segregation at the source**, improving downstream recycling  
+- Promotes **environmental awareness and education**  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 Key Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🔍 **AI-Powered Waste Classification**: Upload a photo and classify it into 1 of 52 predefined waste categories using a custom-trained GoogLeNet (Inception) model.  
+- ♻️ **Recycling & Disposal Guidelines**: Real-time guidance pulled from structured JSON based on the classified category.  
+- 📍 **Nearby Recycling Centers**: Location-based suggestions of disposal facilities using local datasets.  
+- 💬 **Feedback System**: Users can report incorrect classifications to improve model accuracy over time.  
+- 💻 **Responsive UI**: Clean, intuitive interface built using modern web frameworks.  
+- 🔒 **Secure Access**: Firebase-backed authentication and secure API handling.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🏗️ System Architecture
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Frontend**
+- Built using **React.js** and styled with **CSS Modules**
+- Responsive design for desktops with scalability to mobile platforms
 
-## Learn More
+### **Backend**
+- Developed in **Python** using **Flask**
+- Hosts the ML model and processes image classification requests
+- Exposes RESTful API endpoints for classification, guidelines, and location-based queries
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### **Machine Learning**
+- Final model: **GoogLeNet (Inception)**
+- Trained on **52-category dataset**
+- Preprocessing: resize, normalize (ImageNet), tensor conversion
+- JSON-based mapping of waste category to disposal strategy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Data Management**
+- `recycling_guidelines.json`: Categorized disposal instructions
+- Excel feedback logs used for model improvement
+---
 
-### Code Splitting
+## 🔬 Model Evaluation & Selection
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Several models were evaluated to classify waste images, including:
 
-### Analyzing the Bundle Size
+- ✅ **GoogLeNet (Inception)** – *Final model selected for its 94.69% accuracy and strong generalization*
+- ❌ **Xception** – Highest accuracy (99.58%) but suffered from overfitting
+- ⚖️ **EfficientNet, DenseNet, ResNet, VGG** – Lower accuracy or added training complexity
+- 🚫 **ViT, YOLO** – Underperformed due to dataset size or task misalignment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🔄 Data Flow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### **Image Classification**
+1. User uploads image via frontend
+2. Image sent to `/classify` endpoint
+3. Backend processes the image
+4. Model returns predicted class and confidence
+5. Frontend displays classification and disposal guideline
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### **User Feedback**
+- Users report misclassified images
+- Feedback stored in Excel for future retraining cycles
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📡 API Endpoints
 
-### `npm run build` fails to minify
+| Endpoint                     | Method | Functionality                                      |
+|------------------------------|--------|----------------------------------------------------|
+| `/test`                      | GET    | Check backend health                               |
+| `/classify`                  | POST   | Accept image, return class & confidence            |
+| `/guidelines/<class_name>`   | GET    | Return recycling instruction for specific category |
+| `/all-guidelines`            | GET    | Return all categories & guidelines                 |
+| `/recycling-centers`         | POST   | Return nearest centers based on user location      |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🛠️ Tech Stack
+
+| Component         | Technology                                              |
+|-------------------|---------------------------------------------------------|
+| **Frontend**      | React.js, AngularJS, CSS, Framer Motion, Firebase Auth  |
+| **Backend**       | Flask, PyTorch, torchvision, Flask-CORS, PIL            |
+| **Model**         | GoogLeNet (Inception) – Trained on custom dataset       |
+| **Storage & APIs**| JSON (guidelines), CSV (centers), Excel (feedback logs) |
+| **Dev Tools**     | VS Code, Jupyter Notebook, GitHub, REST APIs            |
+
+---
+
+## 📦 Setup Instructions
+
+### **Frontend**
+```bash
+cd client
+npm install
+npm start
+```
+
+### **Backend**
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+## 🎯 Future Enhancements
+
+- 💰 **Reward System**: Introduce a point-based system redeemable with eco-friendly partner brands  
+- 🧠 **Multi-item Detection**: Enable detection of multiple waste types in a single image
+- 📷 **Live Camera Integration**: Allow real-time detection for clinics, public spaces, etc.  
+- 🗺️ **Regional Policy Mapping**: Tailor disposal recommendations to local regulations  
+- 🔄 **Automated Model Retraining**: Incorporate feedback to fine-tune model performance over time  
+- 🌍 **Multilingual & Accessibility Support**: High-contrast mode, offline access, and voice instructions  
+- 🚛 **Pickup Scheduling Integration**: Connect users to local waste management services for direct disposal  
+
