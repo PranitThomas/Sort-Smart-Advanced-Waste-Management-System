@@ -1,3 +1,6 @@
+# ♻️ Sort Smart Advanced Waste Management System 🌍
+---
+
 ## ♻️ Overview
 
 **Waste management is one of the most urgent environmental challenges of our time.**  
