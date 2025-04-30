@@ -142,3 +142,7 @@ python app.py
 - 🌍 **Multilingual & Accessibility Support**: High-contrast mode, offline access, and voice instructions  
 - 🚛 **Pickup Scheduling Integration**: Connect users to local waste management services for direct disposal  
 
+---
+
+## Output 
+
