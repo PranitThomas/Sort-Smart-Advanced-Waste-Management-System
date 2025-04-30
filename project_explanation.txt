@@ -1,0 +1,179 @@
+Smart Sort - Waste Classification System
+=====================================
+
+Project Overview
+---------------
+Smart Sort is a full-stack web application that uses machine learning to classify different types of waste and provide recycling guidelines. The system helps users identify waste items and provides information about how to properly recycle them.
+
+System Architecture
+-----------------
+1. Frontend (React.js)
+2. Backend (Flask)
+3. Machine Learning Model (GoogleNet)
+4. Data Storage (JSON/CSV)
+
+Detailed Component Breakdown
+--------------------------
+
+1. Frontend Components
+---------------------
+a) Authentication System
+   - Login.js & Signup.js: Handle user authentication using Firebase
+   - Auth.css: Styling for authentication pages
+   - Secure password handling and session management
+
+b) Main Application Pages
+   - UploadPage.js: Main interface for waste classification
+   - PolaroidUpload.js: Handles image upload and display
+   - MapSection.js: Shows recycling centers on an interactive map
+   - RecycleGuidelines.js: Displays recycling instructions
+   - AboutUs.js & ContactUs.js: Information pages
+
+c) UI Components
+   - navbar.js: Navigation bar
+   - Footer.js: Page footer
+   - HeroSection.js: Landing page hero section
+   - Various CSS modules for styling
+
+2. Backend Components
+--------------------
+a) Flask Server (app.py)
+   - RESTful API endpoints
+   - CORS enabled for frontend communication
+   - Error handling and logging
+
+b) Machine Learning Pipeline
+   - Model: GoogleNet (Inception) architecture
+   - Classes: 52 different waste categories
+   - Image preprocessing:
+     * Resize to 224x224
+     * Convert to tensor
+     * Normalize using ImageNet statistics
+
+c) Data Management
+   - recycling_guidelines.json: Contains recycling instructions
+   - recycling_centers_dehradun.csv: Location data
+   - recycling_centers.py: Handles center location queries
+
+3. Data Flow
+-----------
+a) Image Classification Process
+   1. User uploads image through PolaroidUpload component
+   2. Image sent to backend /classify endpoint
+   3. Backend preprocesses image
+   4. Model makes prediction
+   5. Results returned to frontend
+   6. UI updates with classification and guidelines
+
+b) Recycling Center Search
+   1. User enters location
+   2. Request sent to /recycling-centers endpoint
+   3. Backend searches CSV data
+   4. Results displayed on MapSection component
+
+c) Guidelines Retrieval
+   1. Classification triggers guidelines request
+   2. Backend searches recycling_guidelines.json
+   3. Guidelines displayed in RecycleGuidelines component
+
+4. API Endpoints
+---------------
+a) /test
+   - GET request
+   - Checks backend status and component loading
+
+b) /classify
+   - POST request
+   - Accepts image file
+   - Returns classification and confidence
+
+c) /guidelines/<class_name>
+   - GET request
+   - Returns recycling guidelines for specific waste type
+
+d) /all-guidelines
+   - GET request
+   - Returns all recycling guidelines
+
+e) /recycling-centers
+   - POST request
+   - Accepts location
+   - Returns nearby recycling centers
+
+5. Machine Learning Model
+------------------------
+a) Architecture
+   - GoogleNet (Inception)
+   - 52 output classes
+   - Pre-trained weights loaded from googlenet_final_52class.pth
+
+b) Image Processing
+   - RGB conversion
+   - Resize to 224x224
+   - Normalization
+   - Tensor conversion
+
+c) Classification
+   - Softmax output
+   - Confidence scoring
+   - Class mapping
+
+6. Data Storage
+--------------
+a) Recycling Guidelines
+   - JSON format
+   - Structured by waste type
+   - Includes steps and tips
+
+b) Recycling Centers
+   - CSV format
+   - Location data
+   - Contact information
+
+7. Security Features
+------------------
+- Firebase authentication
+- CORS protection
+- Secure file handling
+- Error logging
+
+8. User Experience
+----------------
+- Modern, responsive design
+- Interactive map interface
+- Real-time classification
+- Clear recycling instructions
+- Location-based center search
+
+9. Development Setup
+------------------
+Frontend:
+```bash
+npm install
+npm start
+```
+
+Backend:
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+10. Dependencies
+--------------
+Frontend:
+- React 18.2.0
+- Material-UI
+- React Router
+- Firebase
+- Framer Motion
+- Various UI libraries
+
+Backend:
+- Flask
+- PyTorch
+- torchvision
+- PIL
+- Flask-CORS
+
+This system provides a complete solution for waste classification and recycling guidance, combining modern web technologies with machine learning to create a practical and user-friendly application. 

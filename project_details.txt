@@ -1,0 +1,58 @@
+Smart Sort - Waste Classification System
+
+Project Overview:
+This project is a waste classification system that uses machine learning to identify different types of waste and provide recycling guidelines.
+
+Frontend Components:
+1. Authentication System
+   - Login and Signup functionality
+   - User session management
+   - Secure password handling
+
+2. Main Features
+   - Image upload and classification
+   - Recycling guidelines display
+   - Interactive map for recycling centers
+   - Contact and About pages
+
+3. Technologies Used
+   - React.js
+   - CSS Modules
+   - React Router
+   - Axios/Fetch for API calls
+
+Backend Components:
+1. Server
+   - Flask framework
+   - RESTful API endpoints
+   - CORS enabled
+
+2. Machine Learning
+   - GoogleNet (Inception) architecture
+   - 52 waste categories
+   - Image preprocessing pipeline
+   - Classification endpoint
+
+3. Data Management
+   - JSON files for guidelines
+   - CSV files for recycling centers
+   - Model weights storage
+
+Integration:
+- Frontend-Backend communication via REST API
+- Image processing pipeline
+- Data flow management
+- Error handling and logging
+
+Development Setup:
+1. Frontend:
+   npm install
+   npm start
+
+2. Backend:
+   pip install -r requirements.txt
+   python app.py
+
+Dependencies:
+- Frontend: React, React Router, CSS modules
+- Backend: Flask, PyTorch, torchvision, PIL 
